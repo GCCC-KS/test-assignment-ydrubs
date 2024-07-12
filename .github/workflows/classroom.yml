@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Test_test
         setup-command: ''
-        command: "./run.sh"
+        command: eval.py
         input: ''
         expected-output: Hello World
         comparison-method: contains
